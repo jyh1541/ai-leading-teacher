@@ -1,0 +1,3423 @@
+{
+  "schema": "template_fill_pptx_library.v1",
+  "source_pptx": "C:\\Users\\jyh15\\Desktop\\coding\\인공지능선도교사\\projects\\statistical_estimation_lesson_design_ppt169_20260729\\sources\\수업설계안 양식.pptx",
+  "slide_count": 4,
+  "canvas_px": {
+    "width": 1280,
+    "height": 720
+  },
+  "slides": [
+    {
+      "slide_index": 1,
+      "page_type": "cover_candidate",
+      "text_summary": "별첨1\nAI·디지털 도구 활용 단원 교수·학습 설계안(양식)\n과정 중심 평가\n(      )과 AI·디지털 도구 활용 단원 교수·학습설계안\n✔ AI 생성 문장 그대로 제출 금지\n→ 반드시 자신의 언어로 재구성✔ AI 사용 시 이름·연락처 등 개인정보 입력 금지✔ AI 피드백이 항상 정확하지 않음\n→ 학생이 직접 판단하도록 지도✔ AI는 보조 도구, 수업의 주체는 학생임을 지속 강조✔ 이미지 삽입 시 CC라이선스 이미지 사용 (저작권 교육 연계)\nAI·디지털 도구 활용 유의사항\n학교급-학년-학기\n단원\n대상\n지도교사\n핵심\n아이디어\n성취기준\n탐구 질문\nAI·디지털 도구\n단원 재구성\n의도\n학생 및 과제 분석\n평가요소\n피드백\n평가도구\n(방법)\n심화\n기본\n기초",
+      "slots": [
+        {
+          "slot_id": "s01_sh848",
+          "role": "title_candidate",
+          "text": "별첨1",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 27,
+            "y": 49,
+            "width": 107,
+            "height": 36
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh849",
+          "role": "title_candidate",
+          "text": "AI·디지털 도구 활용 단원 교수·학습 설계안(양식)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 151,
+            "y": 49,
+            "width": 1102,
+            "height": 36
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh851",
+          "role": "label_candidate",
+          "text": "과정 중심 평가",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 27,
+            "y": 419,
+            "width": 140,
+            "height": 32
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh852",
+          "role": "title_candidate",
+          "text": "(      )과 AI·디지털 도구 활용 단원 교수·학습설계안",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 371,
+            "y": 71,
+            "width": 538,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh4",
+          "role": "body_candidate",
+          "text": "✔ AI 생성 문장 그대로 제출 금지\n→ 반드시 자신의 언어로 재구성✔ AI 사용 시 이름·연락처 등 개인정보 입력 금지✔ AI 피드백이 항상 정확하지 않음\n→ 학생이 직접 판단하도록 지도✔ AI는 보조 도구, 수업의 주체는 학생임을 지속 강조✔ 이미지 삽입 시 CC라이선스 이미지 사용 (저작권 교육 연계)",
+          "paragraph_count": 3,
+          "geometry": {
+            "x": 968,
+            "y": 530,
+            "width": 286,
+            "height": 221
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 3
+          }
+        },
+        {
+          "slot_id": "s01_sh6",
+          "role": "label_candidate",
+          "text": "AI·디지털 도구 활용 유의사항",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 980,
+            "y": 682,
+            "width": 241,
+            "height": 32
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh850",
+          "role": "title_candidate",
+          "text": "학교급-학년-학기\n단원\n대상\n지도교사\n핵심\n아이디어\n성취기준\n탐구 질문\nAI·디지털 도구\n단원 재구성\n의도\n학생 및 과제 분석",
+          "paragraph_count": 12,
+          "geometry": {
+            "x": 26,
+            "y": 129,
+            "width": 1228,
+            "height": 276
+          },
+          "text_metrics": {
+            "font_size_px": 17.33,
+            "paragraph_count": 12
+          }
+        },
+        {
+          "slot_id": "s01_sh2",
+          "role": "body_candidate",
+          "text": "평가요소\n피드백\n평가도구\n(방법)\n심화\n기본\n기초",
+          "paragraph_count": 7,
+          "geometry": {
+            "x": 5,
+            "y": 489,
+            "width": 946,
+            "height": 162
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 7
+          }
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "s01_tbl850",
+          "row_count": 4,
+          "column_count": 8,
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                {
+                  "row": 0,
+                  "col": 0,
+                  "text": "학교급-학년-학기",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 0,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 2,
+                  "text": "단원",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 0,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 0,
+                  "col": 4,
+                  "text": "대상",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 0,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 0,
+                  "col": 6,
+                  "text": "지도교사",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 6
+                },
+                {
+                  "row": 0,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 7
+                }
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "text": "핵심\n아이디어",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 1,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 1
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 1
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 4,
+                  "text": "성취기준",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 1,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 1,
+                  "col": 6,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 5
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 1,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 5
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 5
+                }
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                {
+                  "row": 2,
+                  "col": 0,
+                  "text": "탐구 질문",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 2,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 1
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 1
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 4,
+                  "text": "AI·디지털 도구",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 2,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 2,
+                  "col": 6,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 5
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 2,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 5
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 5
+                }
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                {
+                  "row": 3,
+                  "col": 0,
+                  "text": "단원 재구성\n의도",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 3,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 1
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 1
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 4,
+                  "text": "학생 및 과제 분석",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 3,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 3,
+                  "col": 6,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 5
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 3,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 5
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 5
+                }
+              ]
+            }
+          ],
+          "merge_topology": {
+            "has_merges": true,
+            "anchors": [
+              {
+                "row": 1,
+                "col": 1,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 1,
+                "col": 5,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 2,
+                "col": 5,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 3,
+                "col": 5,
+                "row_span": 1,
+                "col_span": 3
+              }
+            ],
+            "slave_cells": [
+              {
+                "row": 1,
+                "col": 2,
+                "anchor": {
+                  "row": 1,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "anchor": {
+                  "row": 1,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 6,
+                "anchor": {
+                  "row": 1,
+                  "col": 5
+                }
+              },
+              {
+                "row": 1,
+                "col": 7,
+                "anchor": {
+                  "row": 1,
+                  "col": 5
+                }
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "anchor": {
+                  "row": 2,
+                  "col": 1
+                }
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "anchor": {
+                  "row": 2,
+                  "col": 1
+                }
+              },
+              {
+                "row": 2,
+                "col": 6,
+                "anchor": {
+                  "row": 2,
+                  "col": 5
+                }
+              },
+              {
+                "row": 2,
+                "col": 7,
+                "anchor": {
+                  "row": 2,
+                  "col": 5
+                }
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "anchor": {
+                  "row": 3,
+                  "col": 1
+                }
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "anchor": {
+                  "row": 3,
+                  "col": 1
+                }
+              },
+              {
+                "row": 3,
+                "col": 6,
+                "anchor": {
+                  "row": 3,
+                  "col": 5
+                }
+              },
+              {
+                "row": 3,
+                "col": 7,
+                "anchor": {
+                  "row": 3,
+                  "col": 5
+                }
+              }
+            ]
+          }
+        },
+        {
+          "table_id": "s01_tbl2",
+          "row_count": 4,
+          "column_count": 5,
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                {
+                  "row": 0,
+                  "col": 0,
+                  "text": "평가요소",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 2,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 0,
+                  "col": 1,
+                  "text": "피드백",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 1
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 1
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 4,
+                  "text": "평가도구\n(방법)",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 2,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 4
+                }
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": true,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 0
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 1,
+                  "col": 1,
+                  "text": "심화",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 2,
+                  "text": "기본",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 1,
+                  "col": 3,
+                  "text": "기초",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 1,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": true,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 4
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 4
+                }
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                {
+                  "row": 2,
+                  "col": 0,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 2,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 2,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 2,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 4
+                }
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                {
+                  "row": 3,
+                  "col": 0,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 3,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 3,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 3,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 4
+                }
+              ]
+            }
+          ],
+          "merge_topology": {
+            "has_merges": true,
+            "anchors": [
+              {
+                "row": 0,
+                "col": 0,
+                "row_span": 2,
+                "col_span": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 0,
+                "col": 4,
+                "row_span": 2,
+                "col_span": 1
+              }
+            ],
+            "slave_cells": [
+              {
+                "row": 0,
+                "col": 2,
+                "anchor": {
+                  "row": 0,
+                  "col": 1
+                }
+              },
+              {
+                "row": 0,
+                "col": 3,
+                "anchor": {
+                  "row": 0,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "anchor": {
+                  "row": 0,
+                  "col": 0
+                }
+              },
+              {
+                "row": 1,
+                "col": 4,
+                "anchor": {
+                  "row": 0,
+                  "col": 4
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "charts": [],
+      "diagrams": [],
+      "fill_risk": {
+        "has_non_text_content": true,
+        "kinds": [
+          "table"
+        ],
+        "reason": "has non-text content (table) that text-fill does not replace automatically; cover tables/charts with explicit edits"
+      }
+    },
+    {
+      "slide_index": 2,
+      "page_type": "content_candidate",
+      "text_summary": "•\n1차시\n)\n5차시\n•\n4차시\n시간\n3차시\n2차시\n단원 교수·학습 설계\n주도성\n안내된\n탐구\n구조화된\n탐구\n개방형\n탐구",
+      "slots": [
+        {
+          "slot_id": "s02_sh880",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 95,
+            "y": 424,
+            "width": 251,
+            "height": 167
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh877",
+          "role": "label_candidate",
+          "text": "•",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 134
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh882",
+          "role": "label_candidate",
+          "text": "1차시",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh884",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 985,
+            "y": 222,
+            "width": 251,
+            "height": 117
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh886",
+          "role": "label_candidate",
+          "text": ")",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 103
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh887",
+          "role": "label_candidate",
+          "text": "5차시",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 22
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh889",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 688,
+            "y": 403,
+            "width": 251,
+            "height": 108
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh891",
+          "role": "label_candidate",
+          "text": "•",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 132
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh892",
+          "role": "label_candidate",
+          "text": "4차시",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 22
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh893",
+          "role": "label_candidate",
+          "text": "시간",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1215,
+            "y": 676,
+            "width": 32,
+            "height": 24
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh895",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 392,
+            "y": 242,
+            "width": 251,
+            "height": 177
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh897",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 127
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh898",
+          "role": "label_candidate",
+          "text": "3차시",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh900",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 392,
+            "y": 240,
+            "width": 251,
+            "height": 141
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh878",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 141
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh902",
+          "role": "label_candidate",
+          "text": "2차시",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh906",
+          "role": "title_candidate",
+          "text": "단원 교수·학습 설계",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 9,
+            "y": 15,
+            "width": 169,
+            "height": 32
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh907",
+          "role": "title_candidate",
+          "text": "주도성",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 15,
+            "y": 57,
+            "width": 68,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh909",
+          "role": "label_candidate",
+          "text": "안내된\n탐구",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 16,
+            "y": 333,
+            "width": 48,
+            "height": 39
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s02_sh912",
+          "role": "label_candidate",
+          "text": "구조화된\n탐구",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 8,
+            "y": 523,
+            "width": 65,
+            "height": 39
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s02_sh915",
+          "role": "title_candidate",
+          "text": "개방형\n탐구",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 16,
+            "y": 148,
+            "width": 48,
+            "height": 39
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 2
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 3,
+      "page_type": "content_candidate",
+      "text_summary": "별첨2\nAI·디지털 도구 활용 차시 교수·학습 설계안(양식)\n(      )과 AI·디지털 도구 활용 차시 교수·학습설계안\nAI·디지털 도구 활용 유의사항\n과정 중심 평가\n학교급-\n학년-학기\n단원\n차시\n대상\n지도교사\n수업 주제\n성취기준\n탐구 질문\nAI·디지털 도구\n수업 의도\n학생 및 과제 분석\n영역\n평가요소\n피드백\n평가도구\n(방법)\n심화\n기본\n기초\n지식\n이해\n협력 주체와\n사례 이해\n과정\n기능\n자료 탐색 및\n사례 분석\n가치\n태도\n협력의 필요성\n인식",
+      "slots": [
+        {
+          "slot_id": "s03_sh923",
+          "role": "title_candidate",
+          "text": "별첨2",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 27,
+            "y": 49,
+            "width": 107,
+            "height": 36
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh924",
+          "role": "title_candidate",
+          "text": "AI·디지털 도구 활용 차시 교수·학습 설계안(양식)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 151,
+            "y": 49,
+            "width": 1102,
+            "height": 36
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh925",
+          "role": "title_candidate",
+          "text": "(      )과 AI·디지털 도구 활용 차시 교수·학습설계안",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 371,
+            "y": 71,
+            "width": 538,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh929",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 968,
+            "y": 440,
+            "width": 286,
+            "height": 208
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh931",
+          "role": "label_candidate",
+          "text": "AI·디지털 도구 활용 유의사항",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 980,
+            "y": 682,
+            "width": 241,
+            "height": 32
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh933",
+          "role": "label_candidate",
+          "text": "과정 중심 평가",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 27,
+            "y": 430,
+            "width": 140,
+            "height": 32
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh926",
+          "role": "title_candidate",
+          "text": "학교급-\n학년-학기\n단원\n차시\n대상\n지도교사\n수업 주제\n성취기준\n탐구 질문\nAI·디지털 도구\n수업 의도\n학생 및 과제 분석",
+          "paragraph_count": 12,
+          "geometry": {
+            "x": 26,
+            "y": 124,
+            "width": 1228,
+            "height": 254
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 12
+          }
+        },
+        {
+          "slot_id": "s03_sh927",
+          "role": "body_candidate",
+          "text": "영역\n평가요소\n피드백\n평가도구\n(방법)\n심화\n기본\n기초\n지식\n이해\n협력 주체와\n사례 이해\n과정\n기능\n자료 탐색 및\n사례 분석\n가치\n태도\n협력의 필요성\n인식",
+          "paragraph_count": 20,
+          "geometry": {
+            "x": 27,
+            "y": 469,
+            "width": 931,
+            "height": 224
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 20
+          }
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "s03_tbl926",
+          "row_count": 4,
+          "column_count": 10,
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                {
+                  "row": 0,
+                  "col": 0,
+                  "text": "학교급-\n학년-학기",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 0,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 2,
+                  "text": "단원",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 0,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 0,
+                  "col": 4,
+                  "text": "차시",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 0,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 5
+                },
+                {
+                  "row": 0,
+                  "col": 6,
+                  "text": "대상",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 6
+                },
+                {
+                  "row": 0,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 7
+                },
+                {
+                  "row": 0,
+                  "col": 8,
+                  "text": "지도교사",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 8
+                },
+                {
+                  "row": 0,
+                  "col": 9,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 9
+                }
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "text": "수업 주제",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 1,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 5,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 1
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 1
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 1
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 1
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 6,
+                  "text": "성취기준",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 6
+                },
+                {
+                  "row": 1,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 7
+                },
+                {
+                  "row": 1,
+                  "col": 8,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 7
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 7
+                },
+                {
+                  "row": 1,
+                  "col": 9,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 1,
+                    "col": 7
+                  },
+                  "anchor_row": 1,
+                  "anchor_col": 7
+                }
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                {
+                  "row": 2,
+                  "col": 0,
+                  "text": "탐구 질문",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 2,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 5,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 1
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 1
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 1
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 1
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 6,
+                  "text": "AI·디지털 도구",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 6
+                },
+                {
+                  "row": 2,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 7
+                },
+                {
+                  "row": 2,
+                  "col": 8,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 7
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 7
+                },
+                {
+                  "row": 2,
+                  "col": 9,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 2,
+                    "col": 7
+                  },
+                  "anchor_row": 2,
+                  "anchor_col": 7
+                }
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                {
+                  "row": 3,
+                  "col": 0,
+                  "text": "수업 의도",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 3,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 5,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 1
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 1
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 1
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 1
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 6,
+                  "text": "학생 및 과제 분석",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 6
+                },
+                {
+                  "row": 3,
+                  "col": 7,
+                  "text": "",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 7
+                },
+                {
+                  "row": 3,
+                  "col": 8,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 7
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 7
+                },
+                {
+                  "row": 3,
+                  "col": 9,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 3,
+                    "col": 7
+                  },
+                  "anchor_row": 3,
+                  "anchor_col": 7
+                }
+              ]
+            }
+          ],
+          "merge_topology": {
+            "has_merges": true,
+            "anchors": [
+              {
+                "row": 1,
+                "col": 1,
+                "row_span": 1,
+                "col_span": 5
+              },
+              {
+                "row": 1,
+                "col": 7,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 2,
+                "col": 1,
+                "row_span": 1,
+                "col_span": 5
+              },
+              {
+                "row": 2,
+                "col": 7,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 3,
+                "col": 1,
+                "row_span": 1,
+                "col_span": 5
+              },
+              {
+                "row": 3,
+                "col": 7,
+                "row_span": 1,
+                "col_span": 3
+              }
+            ],
+            "slave_cells": [
+              {
+                "row": 1,
+                "col": 2,
+                "anchor": {
+                  "row": 1,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 3,
+                "anchor": {
+                  "row": 1,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 4,
+                "anchor": {
+                  "row": 1,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 5,
+                "anchor": {
+                  "row": 1,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 8,
+                "anchor": {
+                  "row": 1,
+                  "col": 7
+                }
+              },
+              {
+                "row": 1,
+                "col": 9,
+                "anchor": {
+                  "row": 1,
+                  "col": 7
+                }
+              },
+              {
+                "row": 2,
+                "col": 2,
+                "anchor": {
+                  "row": 2,
+                  "col": 1
+                }
+              },
+              {
+                "row": 2,
+                "col": 3,
+                "anchor": {
+                  "row": 2,
+                  "col": 1
+                }
+              },
+              {
+                "row": 2,
+                "col": 4,
+                "anchor": {
+                  "row": 2,
+                  "col": 1
+                }
+              },
+              {
+                "row": 2,
+                "col": 5,
+                "anchor": {
+                  "row": 2,
+                  "col": 1
+                }
+              },
+              {
+                "row": 2,
+                "col": 8,
+                "anchor": {
+                  "row": 2,
+                  "col": 7
+                }
+              },
+              {
+                "row": 2,
+                "col": 9,
+                "anchor": {
+                  "row": 2,
+                  "col": 7
+                }
+              },
+              {
+                "row": 3,
+                "col": 2,
+                "anchor": {
+                  "row": 3,
+                  "col": 1
+                }
+              },
+              {
+                "row": 3,
+                "col": 3,
+                "anchor": {
+                  "row": 3,
+                  "col": 1
+                }
+              },
+              {
+                "row": 3,
+                "col": 4,
+                "anchor": {
+                  "row": 3,
+                  "col": 1
+                }
+              },
+              {
+                "row": 3,
+                "col": 5,
+                "anchor": {
+                  "row": 3,
+                  "col": 1
+                }
+              },
+              {
+                "row": 3,
+                "col": 8,
+                "anchor": {
+                  "row": 3,
+                  "col": 7
+                }
+              },
+              {
+                "row": 3,
+                "col": 9,
+                "anchor": {
+                  "row": 3,
+                  "col": 7
+                }
+              }
+            ]
+          }
+        },
+        {
+          "table_id": "s03_tbl927",
+          "row_count": 5,
+          "column_count": 6,
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                {
+                  "row": 0,
+                  "col": 0,
+                  "text": "영역",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 2,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 0,
+                  "col": 1,
+                  "text": "평가요소",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 2,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 2,
+                  "text": "피드백",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 3,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 0,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 2
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 0,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": true,
+                  "v_merge": false,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 2
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 0,
+                  "col": 5,
+                  "text": "평가도구\n(방법)",
+                  "merge_role": "anchor",
+                  "is_merge_anchor": true,
+                  "is_merge_slave": false,
+                  "row_span": 2,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 5
+                }
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": true,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 0
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 1,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": true,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 1
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 2,
+                  "text": "심화",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 1,
+                  "col": 3,
+                  "text": "기본",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 1,
+                  "col": 4,
+                  "text": "기초",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 1,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "slave",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": true,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": true,
+                  "merge_anchor": {
+                    "row": 0,
+                    "col": 5
+                  },
+                  "anchor_row": 0,
+                  "anchor_col": 5
+                }
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                {
+                  "row": 2,
+                  "col": 0,
+                  "text": "지식\n이해",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 2,
+                  "col": 1,
+                  "text": "협력 주체와\n사례 이해",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 2,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 2,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 2,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 5
+                }
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                {
+                  "row": 3,
+                  "col": 0,
+                  "text": "과정\n기능",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 3,
+                  "col": 1,
+                  "text": "자료 탐색 및\n사례 분석",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 3,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 3,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 3,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 5
+                }
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                {
+                  "row": 4,
+                  "col": 0,
+                  "text": "가치\n태도",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 4,
+                  "col": 1,
+                  "text": "협력의 필요성\n인식",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 4,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 4,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 3
+                },
+                {
+                  "row": 4,
+                  "col": 4,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 4
+                },
+                {
+                  "row": 4,
+                  "col": 5,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 5
+                }
+              ]
+            }
+          ],
+          "merge_topology": {
+            "has_merges": true,
+            "anchors": [
+              {
+                "row": 0,
+                "col": 0,
+                "row_span": 2,
+                "col_span": 1
+              },
+              {
+                "row": 0,
+                "col": 1,
+                "row_span": 2,
+                "col_span": 1
+              },
+              {
+                "row": 0,
+                "col": 2,
+                "row_span": 1,
+                "col_span": 3
+              },
+              {
+                "row": 0,
+                "col": 5,
+                "row_span": 2,
+                "col_span": 1
+              }
+            ],
+            "slave_cells": [
+              {
+                "row": 0,
+                "col": 3,
+                "anchor": {
+                  "row": 0,
+                  "col": 2
+                }
+              },
+              {
+                "row": 0,
+                "col": 4,
+                "anchor": {
+                  "row": 0,
+                  "col": 2
+                }
+              },
+              {
+                "row": 1,
+                "col": 0,
+                "anchor": {
+                  "row": 0,
+                  "col": 0
+                }
+              },
+              {
+                "row": 1,
+                "col": 1,
+                "anchor": {
+                  "row": 0,
+                  "col": 1
+                }
+              },
+              {
+                "row": 1,
+                "col": 5,
+                "anchor": {
+                  "row": 0,
+                  "col": 5
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "charts": [],
+      "diagrams": [],
+      "fill_risk": {
+        "has_non_text_content": true,
+        "kinds": [
+          "table"
+        ],
+        "reason": "has non-text content (table) that text-fill does not replace automatically; cover tables/charts with explicit edits"
+      }
+    },
+    {
+      "slide_index": 4,
+      "page_type": "ending_candidate",
+      "text_summary": "학습\n형태\n도구:\n역할:\n도입(5분)\n도구:역할:\n전개1(10분)\n도구:역할:\n단계명(5분)\n도구:역할:\n전개2(25분)\n모둠\n개별\n전체\n시간\n0차시 교수·학습 설계",
+      "slots": [
+        {
+          "slot_id": "s04_sh940",
+          "role": "title_candidate",
+          "text": "학습\n형태",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 31,
+            "y": 69,
+            "width": 52,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s04_sh956",
+          "role": "label_candidate",
+          "text": "도구:\n역할:",
+          "paragraph_count": 2,
+          "geometry": {
+            "x": 95,
+            "y": 519,
+            "width": 251,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 2
+          }
+        },
+        {
+          "slot_id": "s04_sh949",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 230,
+            "y": 525,
+            "width": 145,
+            "height": 236
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh958",
+          "role": "label_candidate",
+          "text": "도입(5분)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 17
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh960",
+          "role": "label_candidate",
+          "text": "도구:역할:",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 392,
+            "y": 304,
+            "width": 251,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh950",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 229
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh962",
+          "role": "label_candidate",
+          "text": "전개1(10분)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 518,
+            "width": 128,
+            "height": 17
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh964",
+          "role": "label_candidate",
+          "text": "도구:역할:",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 985,
+            "y": 315,
+            "width": 251,
+            "height": 63
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh954",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 218
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh966",
+          "role": "label_candidate",
+          "text": "단계명(5분)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 22
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh968",
+          "role": "label_candidate",
+          "text": "도구:역할:",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 688,
+            "y": 510,
+            "width": 251,
+            "height": 48
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh952",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 230,
+            "y": 527,
+            "width": 145,
+            "height": 244
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh970",
+          "role": "label_candidate",
+          "text": "전개2(25분)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 239,
+            "y": 514,
+            "width": 128,
+            "height": 18
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh973",
+          "role": "label_candidate",
+          "text": "모둠",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 38,
+            "y": 470,
+            "width": 32,
+            "height": 19
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh976",
+          "role": "label_candidate",
+          "text": "개별",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 38,
+            "y": 578,
+            "width": 32,
+            "height": 19
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh978",
+          "role": "label_candidate",
+          "text": "전체",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 38,
+            "y": 415,
+            "width": 32,
+            "height": 19
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh980",
+          "role": "label_candidate",
+          "text": "시간",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1215,
+            "y": 676,
+            "width": 32,
+            "height": 24
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh981",
+          "role": "title_candidate",
+          "text": "0차시 교수·학습 설계",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 9,
+            "y": 15,
+            "width": 169,
+            "height": 32
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    }
+  ],
+  "plan_contract": {
+    "schema": "template_fill_pptx_plan.v1",
+    "slides": [
+      {
+        "source_slide": 1,
+        "purpose": "封面 / 章节 / 内容 / 结尾",
+        "replacements": [
+          {
+            "slot_id": "s01_sh2",
+            "text": "替换后的文字"
+          }
+        ],
+        "table_edits": [
+          {
+            "table_id": "s01_tbl3",
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "替换后的单元格"
+              }
+            ]
+          }
+        ],
+        "chart_edits": [
+          {
+            "chart_id": "s01_ch4",
+            "categories": [
+              "A",
+              "B"
+            ],
+            "series": [
+              {
+                "name": "系列1",
+                "values": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
