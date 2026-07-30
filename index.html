@@ -444,7 +444,7 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
 </head>
 
 <body class="antialiased intro-active">
-<section id="mathIntro" class="math-intro" data-structure-mode="torus" aria-labelledby="introTitle" aria-describedby="introDescription">
+<section id="mathIntro" class="math-intro" data-structure-mode="spiral" aria-labelledby="introTitle" aria-describedby="introDescription">
   <canvas id="mathHeroCanvas" class="math-canvas" aria-hidden="true"></canvas>
   <audio id="introAudio" autoplay preload="auto" playsinline src="인공지능선도교사 노래.mp3"></audio>
   <div class="intro-bloom b1" aria-hidden="true"></div>
@@ -456,8 +456,8 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
   <div class="intro-topbar">
     <span>EXPONENTIAL GROWTH · LOGARITHMIC TIME</span>
     <div class="intro-mode-switch" role="group" aria-label="수학 구조물 비교 모드">
-      <button class="intro-mode-btn" type="button" data-structure-mode="torus" aria-pressed="true">토러스</button>
-      <button class="intro-mode-btn" type="button" data-structure-mode="spiral" aria-pressed="false">로그 나선</button>
+      <button class="intro-mode-btn" type="button" data-structure-mode="torus" aria-pressed="false">토러스</button>
+      <button class="intro-mode-btn" type="button" data-structure-mode="spiral" aria-pressed="true">로그 나선</button>
     </div>
     <div class="intro-top-actions">
       <div class="intro-status"><i></i><span>REAL-TIME GEOMETRY</span></div>
@@ -504,7 +504,7 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
     <p id="lyricNext" class="lyric-line" aria-hidden="true"></p>
   </div>
 
-  <div id="structureFormula" class="intro-equation eq1" aria-hidden="true">T(u,v) = ((R+r cos v) cos u, ···)</div>
+  <div id="structureFormula" class="intro-equation eq1" aria-hidden="true">r(θ) = ae<sup>bθ</sup> · θ = log(r/a) / b</div>
   <div class="intro-equation eq2" aria-hidden="true">r(θ) = ae<sup>bθ</sup> · φ = 1.618033···</div>
   <div class="intro-equation eq3" aria-hidden="true">x = sin(3t + π/2) · y = sin(2t)</div>
   <div class="intro-axis" aria-hidden="true">GROWTH AXIS<span></span>∞</div>
@@ -1089,7 +1089,7 @@ function initMathIntro(){
   let userPausedAudio=false;
   let torusRotX=0,torusRotY=0,torusVelX=0,torusVelY=0;
   let torusPointerId=null,dragX=0,dragY=0,dragTime=0,lastFrameTime=0;
-  let structureMix=0,structureTarget=0;
+  let structureMix=1,structureTarget=1;
 
   function setStructureMode(mode){
     const spiral=mode==="spiral";
