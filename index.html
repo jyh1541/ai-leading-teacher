@@ -415,7 +415,7 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
 <body class="antialiased intro-active">
 <section id="mathIntro" class="math-intro" aria-labelledby="introTitle" aria-describedby="introDescription">
   <canvas id="mathHeroCanvas" class="math-canvas" aria-hidden="true"></canvas>
-  <audio id="introAudio" preload="auto" src="인공지능선도교사 노래.mp3"></audio>
+  <audio id="introAudio" autoplay preload="auto" playsinline src="인공지능선도교사 노래.mp3"></audio>
   <div class="intro-bloom b1" aria-hidden="true"></div>
   <div class="intro-bloom b2" aria-hidden="true"></div>
   <div class="intro-bloom b3" aria-hidden="true"></div>
@@ -1050,6 +1050,7 @@ function initMathIntro(){
   let px=0,py=0,tx=0,ty=0;
   let stars=[];
   let lyricIndex=-1,lyricFrame=0;
+  let userPausedAudio=false;
 
   function showLyric(index){
     if(index<0||index>=LYRIC_TIMELINE.length||index===lyricIndex) return;
@@ -1104,12 +1105,44 @@ function initMathIntro(){
       resetLyrics();
     }
     if(audio.paused){
+      userPausedAudio=false;
       try{ await audio.play(); }
       catch(e){ soundLabel.textContent="눌러서 음악 시작"; }
-    }else audio.pause();
+    }else{
+      userPausedAudio=true;
+      audio.pause();
+    }
   }
 
   if(audio&&soundToggle&&soundLabel){
+    const removeUnlockListeners=()=>{
+      document.removeEventListener("pointerdown",unlockOnFirstInteraction,true);
+      document.removeEventListener("touchstart",unlockOnFirstInteraction,true);
+      document.removeEventListener("keydown",unlockOnFirstInteraction,true);
+    };
+    const tryAutoPlay=async()=>{
+      if(userPausedAudio||!audio.paused||audio.ended||intro.hidden||intro.classList.contains("is-leaving")){
+        return !audio.paused;
+      }
+      try{
+        audio.muted=false;
+        await audio.play();
+        removeUnlockListeners();
+        return true;
+      }catch(e){
+        if(!intro.classList.contains("is-leaving")){
+          soundLabel.textContent="화면을 터치하면 음악 시작";
+        }
+        return false;
+      }
+    };
+    function unlockOnFirstInteraction(e){
+      const target=e.target;
+      if(target instanceof Element&&target.closest("#introSoundToggle, #startExperience")) return;
+      void tryAutoPlay();
+    }
+
+    audio.autoplay=true;
     audio.volume=.76;
     soundToggle.addEventListener("click",e=>{ e.stopPropagation(); toggleIntroAudio(); });
     audio.addEventListener("play",()=>{
@@ -1140,13 +1173,19 @@ function initMathIntro(){
     audio.addEventListener("error",()=>{
       soundLabel.textContent="음악 로드 실패";
       soundToggle.disabled=true;
+      removeUnlockListeners();
     });
-    window.setTimeout(()=>{
-      const attempt=audio.play();
-      if(attempt&&typeof attempt.catch==="function"){
-        attempt.catch(()=>{ soundLabel.textContent="음악과 가사 시작"; });
-      }
-    },280);
+    audio.addEventListener("loadeddata",tryAutoPlay,{once:true});
+    audio.addEventListener("canplay",tryAutoPlay,{once:true});
+    window.addEventListener("pageshow",tryAutoPlay);
+    document.addEventListener("visibilitychange",()=>{
+      if(!document.hidden) void tryAutoPlay();
+    });
+    document.addEventListener("pointerdown",unlockOnFirstInteraction,true);
+    document.addEventListener("touchstart",unlockOnFirstInteraction,true);
+    document.addEventListener("keydown",unlockOnFirstInteraction,true);
+    void tryAutoPlay();
+    window.setTimeout(tryAutoPlay,250);
   }
 
   function makeStars(){
@@ -1335,7 +1374,10 @@ function initMathIntro(){
   start.addEventListener("click",()=>{
     if(intro.classList.contains("is-leaving")) return;
     start.disabled=true;
-    if(audio) audio.pause();
+    if(audio){
+      userPausedAudio=true;
+      audio.pause();
+    }
     cancelAnimationFrame(lyricFrame);
     intro.classList.add("is-leaving");
     window.setTimeout(()=>{
