@@ -610,19 +610,17 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
     <div class="flex items-start gap-4">
       <span class="stepnum">01</span>
       <div>
-        <div class="text-[11px] font-bold tracking-[0.14em] text-faint">2차시 — 성장의 두 얼굴</div>
-        <h2 class="font-display mt-0.5 text-[24px] font-black tracking-tight [text-wrap:balance]">단리 vs 복리, 같은 이율 다른 운명</h2>
+        <div class="text-[11px] font-bold tracking-[0.14em] text-faint">2차시 — 표로 탐색하는 성장</div>
+        <h2 class="font-display mt-0.5 text-[24px] font-black tracking-tight">표에서 성장의 차이를 발견하다</h2>
       </div>
     </div>
-    <p class="mt-1.5 max-w-[44em] text-[14.5px] leading-relaxed text-sub">단리는 원금에만, 복리는 <b class="text-ink">이자에도 이자</b>가 붙는다. 처음엔 나란히 가던 두 곡선이 시간이 쌓일수록 어떻게 갈라지는지 지켜보자.</p>
+    <p class="mt-1.5 max-w-[44em] text-[14.5px] leading-relaxed text-sub">연도별 단리와 복리 금액을 비교하고, 복리 원리합계가 2배를 넘는 순간을 찾아보자. 표는 "몇 년째에 넘었다"까지만 말해 준다. <b class="text-ink">정확히 언제</b> 2배가 되는지는, 표를 아무리 늘려도 나오지 않는다.</p>
     <div class="mt-4 rounded-3xl border p-5 shadow-card md:p-6" style="border-color:var(--ring);background:var(--surface)">
-      <div class="mb-3 flex flex-wrap gap-x-5 gap-y-1 text-[13px] text-sub">
-        <span class="inline-flex items-center gap-2"><span class="key k1"></span><b class="text-ink">복리</b> — 원리합계 P(1+r)<sup>n</sup></span>
-        <span class="inline-flex items-center gap-2"><span class="key k2"></span><b class="text-ink">단리</b> — 원리합계 P(1+rn)</span>
+      <div class="tbl-wrap" id="yearTableWrap">
+        <table id="yearTable" aria-label="연도별 단리·복리 원리합계 표"></table>
       </div>
-      <div class="chart-box" id="growthChart" tabindex="0" aria-label="단리와 복리의 연도별 원리합계 비교 그래프. 아래 표에서 같은 값을 읽을 수 있습니다."></div>
+      <div class="callout" id="tableCallout"></div>
     </div>
-    <div id="growthTiles" class="mt-3.5 grid grid-cols-1 gap-3 sm:grid-cols-3"></div>
   </section>
 
   <!-- ─── STEP 2 ─── -->
@@ -630,17 +628,19 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
     <div class="flex items-start gap-4">
       <span class="stepnum">02</span>
       <div>
-        <div class="text-[11px] font-bold tracking-[0.14em] text-faint">3차시 — 표 탐색의 한계</div>
-        <h2 class="font-display mt-0.5 text-[24px] font-black tracking-tight">표로는 답할 수 없다</h2>
+        <div class="text-[11px] font-bold tracking-[0.14em] text-faint">2차시 — 성장의 두 얼굴</div>
+        <h2 class="font-display mt-0.5 text-[24px] font-black tracking-tight [text-wrap:balance]">단리 vs 복리, 같은 이율 다른 운명</h2>
       </div>
     </div>
-    <p class="mt-1.5 max-w-[44em] text-[14.5px] leading-relaxed text-sub">복리 표에서 원리합계가 2배를 넘는 순간을 찾아보자. 표는 "몇 년째에 넘었다"까지만 말해 준다. <b class="text-ink">정확히 언제</b> 2배가 되는지는, 표를 아무리 늘려도 나오지 않는다.</p>
+    <p class="mt-1.5 max-w-[44em] text-[14.5px] leading-relaxed text-sub">단리는 원금에만, 복리는 <b class="text-ink">이자에도 이자</b>가 붙는다. 표에서 확인한 두 성장 방식이 시간이 쌓일수록 그래프에서 어떻게 갈라지는지 지켜보자.</p>
     <div class="mt-4 rounded-3xl border p-5 shadow-card md:p-6" style="border-color:var(--ring);background:var(--surface)">
-      <div class="tbl-wrap" id="yearTableWrap">
-        <table id="yearTable" aria-label="연도별 단리·복리 원리합계 표"></table>
+      <div class="mb-3 flex flex-wrap gap-x-5 gap-y-1 text-[13px] text-sub">
+        <span class="inline-flex items-center gap-2"><span class="key k1"></span><b class="text-ink">복리</b> — 원리합계 P(1+r)<sup>n</sup></span>
+        <span class="inline-flex items-center gap-2"><span class="key k2"></span><b class="text-ink">단리</b> — 원리합계 P(1+rn)</span>
       </div>
-      <div class="callout" id="tableCallout"></div>
+      <div class="chart-box" id="growthChart" tabindex="0" aria-label="단리와 복리의 연도별 원리합계 비교 그래프. 위 표에서 같은 값을 읽을 수 있습니다."></div>
     </div>
+    <div id="growthTiles" class="mt-3.5 grid grid-cols-1 gap-3 sm:grid-cols-3"></div>
   </section>
 
   <!-- ─── STEP 3 ─── -->
@@ -692,7 +692,7 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
       <span class="stepnum">05</span>
       <div>
         <div class="text-[11px] font-bold tracking-[0.14em] text-faint">4차시 — 나만의 저축 설계서</div>
-        <h2 class="font-display mt-0.5 text-[24px] font-black tracking-tight">설계서에 쓸 두 가지 무기</h2>
+        <h2 class="font-display mt-0.5 text-[24px] font-black tracking-tight">저축 설계의 두 가지 핵심 변수</h2>
       </div>
     </div>
     <p class="mt-1.5 max-w-[44em] text-[14.5px] leading-relaxed text-sub">같은 로그 논리는 설계서의 근거가 된다. 작은 이율 차이의 누적, 그리고 물가가 깎아 먹는 실질 가치까지.</p>
@@ -880,7 +880,7 @@ function drawChart(box,cfg){
   box.onblur=hide;
 }
 
-/* ───────── STEP 1 ───────── */
+/* ───────── STEP 2 · GROWTH CHART ───────── */
 function renderGrowth(){
   const {P,r,T}=state;
   const ptsC=[],ptsS=[];
@@ -915,7 +915,7 @@ function renderGrowth(){
       <div class="t-value">${fmtMoney(Math.round(c-s))}</div><div class="t-note">이자가 이자를 낳은 몫</div></div>`;
 }
 
-/* ───────── STEP 2 ───────── */
+/* ───────── STEP 1 · YEAR TABLE ───────── */
 function renderTable(){
   const {P,r,T}=state;
   const tbl=$("yearTable");
@@ -1028,7 +1028,7 @@ function renderAll(){
   for(const [el,min,max,val] of [[$("inR"),0.5,15,state.r],[$("inT"),5,40,state.T],[$("inInfl"),0.5,6,state.infl]]){
     el.style.setProperty("--fill",((val-min)/(max-min)*100)+"%");
   }
-  renderGrowth(); renderTable(); renderMath(); renderRule(); renderTools();
+  renderTable(); renderGrowth(); renderMath(); renderRule(); renderTools();
 }
 $("inP").addEventListener("input",e=>{const v=parseFloat(e.target.value); if(v>=10&&v<=100000){state.P=v; renderAll();}});
 $("inR").addEventListener("input",e=>{state.r=parseFloat(e.target.value); renderAll();});
