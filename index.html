@@ -196,6 +196,7 @@ body.intro-active{ overflow:hidden }
 body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
 .math-intro{
   position:fixed; inset:0; z-index:9999; min-height:100vh; min-height:100dvh; overflow:hidden; isolation:isolate;
+  touch-action:none;
   color:#f6f8ff; background:
     radial-gradient(circle at 68% 46%, rgba(56,111,255,.19), transparent 28%),
     radial-gradient(circle at 25% 78%, rgba(169,79,255,.16), transparent 34%),
@@ -203,6 +204,9 @@ body.intro-active .app-page{ filter:blur(8px); transform:scale(.985) }
     linear-gradient(135deg,#02030a 0%,#070b1c 48%,#03030c 100%);
   transition:opacity .9s ease, transform 1.15s cubic-bezier(.2,.8,.2,1), filter .9s ease;
 }
+.math-intro.torus-hover{ cursor:grab }
+.math-intro.torus-dragging{ cursor:grabbing; touch-action:none }
+.math-intro.torus-dragging *{ user-select:none }
 .math-intro.is-leaving{ opacity:0; transform:scale(1.055); filter:blur(14px); pointer-events:none }
 .math-intro[hidden]{ display:none }
 .math-intro::before{
@@ -1051,6 +1055,8 @@ function initMathIntro(){
   let stars=[];
   let lyricIndex=-1,lyricFrame=0;
   let userPausedAudio=false;
+  let torusRotX=0,torusRotY=0,torusVelX=0,torusVelY=0;
+  let torusPointerId=null,dragX=0,dragY=0,dragTime=0,lastFrameTime=0;
 
   function showLyric(index){
     if(index<0||index>=LYRIC_TIMELINE.length||index===lyricIndex) return;
@@ -1204,6 +1210,19 @@ function initMathIntro(){
     ctx.setTransform(dpr,0,0,dpr,0,0);
     makeStars();
   }
+  function getTorusLayout(){
+    const mobile=W<760;
+    return {
+      cx:mobile?W*.5:W*.71,
+      cy:mobile?H*.59:H*.63,
+      scale:Math.min(W,H)*(mobile?.145:.205)
+    };
+  }
+  function isTorusHit(x,y){
+    const {cx,cy,scale}=getTorusLayout();
+    const dx=x-cx,dy=y-cy;
+    return dx*dx+dy*dy<=Math.pow(scale*2.05,2);
+  }
   function rotate3D(p,ax,ay,az){
     let [x,y,z]=p;
     let c=Math.cos(ax),s=Math.sin(ax), y1=y*c-z*s, z1=y*s+z*c; y=y1; z=z1;
@@ -1287,8 +1306,8 @@ function initMathIntro(){
   }
   function drawTorus(t,cx,cy,scale){
     ctx.save(); ctx.globalCompositeOperation="lighter";
-    const ax=.9+Math.sin(t*.00017)*.08+py*.16;
-    const ay=t*.00013+px*.23;
+    const ax=.9+Math.sin(t*.00017)*.08+py*.16+torusRotX;
+    const ay=t*.00013+px*.23+torusRotY;
     const az=-.22+Math.sin(t*.00011)*.05;
     const cool=ctx.createLinearGradient(cx-scale*1.7,cy-scale,cx+scale*1.8,cy+scale);
     cool.addColorStop(0,"rgba(89,113,255,.08)");
@@ -1348,12 +1367,21 @@ function initMathIntro(){
   }
   function renderIntro(t=0){
     if(!alive||!ctx) return;
+    const dt=lastFrameTime?Math.min(34,Math.max(0,t-lastFrameTime)):16.67;
+    lastFrameTime=t;
+    if(torusPointerId===null){
+      torusRotX+=torusVelX*dt;
+      torusRotY+=torusVelY*dt;
+      const friction=Math.pow(.925,dt/16.67);
+      torusVelX*=friction;
+      torusVelY*=friction;
+      if(Math.abs(torusVelX)<.00001) torusVelX=0;
+      if(Math.abs(torusVelY)<.00001) torusVelY=0;
+    }
     px+=(tx-px)*.035; py+=(ty-py)*.035;
     ctx.clearRect(0,0,W,H);
     drawStars(t);
-    const mobile=W<760;
-    const cx=mobile?W*.5:W*.71, cy=mobile?H*.59:H*.63;
-    const scale=Math.min(W,H)*(mobile?.145:.205);
+    const {cx,cy,scale}=getTorusLayout();
     drawLogSpiral(t,cx,cy,scale);
     drawLissajous(t,cx,cy,scale);
     drawTorus(t,cx,cy,scale);
@@ -1364,10 +1392,64 @@ function initMathIntro(){
   if(ctx){
     resizeIntro();
     window.addEventListener("resize",resizeIntro,{passive:true});
+    intro.addEventListener("pointerdown",e=>{
+      const target=e.target;
+      if(target instanceof Element&&target.closest("button, a, input, select, textarea")) return;
+      if(!isTorusHit(e.clientX,e.clientY)) return;
+      e.preventDefault();
+      torusPointerId=e.pointerId;
+      dragX=e.clientX;
+      dragY=e.clientY;
+      dragTime=performance.now();
+      torusVelX=0;
+      torusVelY=0;
+      intro.classList.remove("torus-hover");
+      intro.classList.add("torus-dragging");
+      intro.setPointerCapture(e.pointerId);
+    });
     intro.addEventListener("pointermove",e=>{
       tx=(e.clientX/W-.5)*2; ty=(e.clientY/H-.5)*2;
+      if(e.pointerId===torusPointerId){
+        e.preventDefault();
+        const now=performance.now();
+        const dt=Math.max(8,now-dragTime);
+        const {scale}=getTorusLayout();
+        const sensitivity=1.25/Math.max(72,scale);
+        const deltaX=e.clientX-dragX,deltaY=e.clientY-dragY;
+        const turnX=deltaY*sensitivity,turnY=deltaX*sensitivity;
+        torusRotX+=turnX;
+        torusRotY+=turnY;
+        torusVelX=torusVelX*.32+turnX/dt*.68;
+        torusVelY=torusVelY*.32+turnY/dt*.68;
+        dragX=e.clientX;
+        dragY=e.clientY;
+        dragTime=now;
+        if(reduced) renderIntro(now);
+        return;
+      }
+      const target=e.target;
+      const interactive=target instanceof Element&&target.closest("button, a, input, select, textarea");
+      intro.classList.toggle("torus-hover",!interactive&&e.pointerType==="mouse"&&isTorusHit(e.clientX,e.clientY));
+    },{passive:false});
+    const endTorusDrag=e=>{
+      if(e.pointerId!==torusPointerId) return;
+      torusPointerId=null;
+      intro.classList.remove("torus-dragging");
+      if(intro.hasPointerCapture(e.pointerId)) intro.releasePointerCapture(e.pointerId);
+      if(reduced) renderIntro(performance.now());
+    };
+    intro.addEventListener("pointerup",endTorusDrag);
+    intro.addEventListener("pointercancel",endTorusDrag);
+    intro.addEventListener("lostpointercapture",e=>{
+      if(e.pointerId===torusPointerId){
+        torusPointerId=null;
+        intro.classList.remove("torus-dragging");
+      }
+    });
+    intro.addEventListener("pointerleave",()=>{
+      tx=0;ty=0;
+      if(torusPointerId===null) intro.classList.remove("torus-hover");
     },{passive:true});
-    intro.addEventListener("pointerleave",()=>{tx=0;ty=0},{passive:true});
     renderIntro(0);
   }
 
